@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 0px;
+    box-shadow: 0 0 135px #1F4548;
+}
+#navbar ::before{
+    content: "";
+    background-color: #1F4548;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#logo{
+    margin: 0px;
+}
+#logo img{
+    margin: 24px 10px 27px 38px;
+    width: 50px;
+    border-radius: 50%;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+#navbar ul li{
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul li a{
+    display: block;
+    padding: 41px 45px;
+    color: white;
+    font-size: 21px;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#navbar h1{
+    padding: 30px;
+    padding-right:226px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#about{
+    height: 300px;
+    width: auto;
+    position: relative;
+}
+#about::before{
+    content: "";
+    background: url(../Home/imgHome/Extra.jpg) no-repeat center top/cover;
+    position: absolute;
+    filter: grayscale(90%);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#about h1{
+    text-align: center;
+    color: #3a2711;
+    font-size: 60px;
+    padding-top: 120px;
+}
+
+#write{
+    display: flex;
+}
+#myphoto{
+    height: 830px;
+    width: 550px;
+    border: 2px solid #1F4548;
+    background-color: #1F4548;
+}
+#myphoto img{
+    
+}
+.up{
+    margin: 80px 7px 6px 214px;
+    height: 261px;
+    width: 260px;
+}
+.down{
+    margin: -67px 5px 20px 420px;
+    height: 472px;
+    width: 247px;
+}
+#aboutme{
+    height: 830px;
+    width: 970px;
+}
+#aboutme h1{
+    color: #3a2711;
+    font-size: 54px;
+    margin-top: 67px;
+    margin-left: 300px;
+}
+#aboutme p{
+    margin-left:300px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #3a2711;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.in_about{
+    margin-left: 300px;
+}
+.git_about{
+    margin:20px;
+}
+#thought{
+    background-color:#3a2711 ;
+    height: 600px;
+    width: auto;
+}
+#thought div{
+    margin: 100px;
+    margin-top: 0px;
+    padding: 60px;
+    padding-top: 120px;  
+    font-family: 'Nanum Myeongjo', serif;
+    
+}
+#thought div h1{
+   
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+#thought div h4{
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.resume{
+    height: 166px;
+    width: auto;
+    text-align: center;
+    
+}
+.btn{
+    height: 67px;
+    width: 196px;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px;
+    margin: 50px 661px;
+    background-color: #1F4548;
+    color: white;
+    border-radius: 15px;
+}
+#footer{
+    height: 160px;
+    width: auto;
+    margin: 0;
+    background-color: #1F4548;
+}
+#footer div{
+    display: flex;
+    color: white;
+}
+#footer div ul{
+    display: flex;
+    justify-content: space-around;
+}
+#footer div h1{
+    margin: 85px 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+#footer div ul{
+    margin: 86px 220px;
+    margin-left: 196px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#footer div ul li a{
+    padding: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer div ul li a:hover{
+    font-weight: bold;
+}
+.in_footer{
+    margin: 86px 23px 99px 90px;
+    margin-bottom: 40px;
+}
+.fa-brands{
+    font-size: 20px;
+}
+.git_footer{
+    margin: 86px 23px 99px 0px;
+    margin-bottom: 40px;
+}
+#footer h4{
+    color: white;
+    background-color: #1F4548;
+    height:40px;
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 0 135px #1F4548;
+}
+#navbar ::before{
+    content: "";
+    background-color: #1F4548;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#logo{
+    margin: 0px;
+}
+#logo img{
+    margin: 24px 10px 27px 38px;
+    width: 50px;
+    border-radius: 50%;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+#navbar ul li{
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul li a{
+    display: block;
+    padding: 41px 45px;
+    color: white;
+    font-size: 21px;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#navbar h1{
+    padding: 30px;
+    padding-right:226px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 530px 750px 100px 140px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: -50px;
+}
+#home div h1{
+    padding-top: 5px;
+    color: black;
+}
+#home ::before{
+    content: "";
+    position: absolute;
+    background: url(imgHome/Coding5.jpg)no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#home div{
+    border: 7px outset white;
+    padding: 24px;
+    border-radius: 0px;
+    box-shadow: 20px 20px 485px #1F4548;
+}
+#intro {
+    display: flex;
+}
+#intro div {
+    border: 2px solid #1F4548;
+    margin: 0 144px;
+    margin-bottom: 147px;
+    margin-right: 176px;
+    padding: 32px;
+    padding-top: 42px;
+    height: 607px;
+    width: 557px;
+    background-color: #1F4548;
+    color: white;
+    font-size: 20px;
+    box-shadow: 30px 70px #3a2711;
+}
+#intro div h1{
+    color: white;
+    font-size: 48px;
+}
+#post{
+    padding: 28px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+#about2{
+    margin-top: 20px;
+    
+}
+.in{
+    padding: 10px;
+    margin-left: 400px;
+}
+.git{
+    padding: 10px;
+}
+.up {
+    height: 361px;
+    width: 283px;
+    margin: 0px 0px 20px 0px;
+    
+}
+.up:hover{
+    border: 20px outset #1F4548;
+}
+.down {
+    height: 336px;
+    width: 300px;
+    margin: 271px 68px 20px -87px;
+}
+.down:hover {
+    border: 20px outset #0b0703;
+}
+#thought{
+    background-color:#3a2711 ;
+    height: 400px;
+    width: auto;
+}
+#thought div{
+    margin: 80px;
+    margin-top: 0px;
+    padding: 60px;  
+    font-family:'Cormorant Garamond', serif;
+    
+}
+#thought div h1{
+   
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+#thought div h4{
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.resume{
+    height: 166px;
+    width: auto;
+    text-align: center;
+    
+}
+.btn{
+    height: 67px;
+    width: 196px;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px;
+    margin: 50px 661px;
+    background-color: #1F4548;
+    color: white;
+    border-radius: 15px;
+}
+#footer{
+    height: 160px;
+    width: auto;
+    margin: 0;
+    background-color: #1F4548;
+}
+#footer div{
+    display: flex;
+    color: white;
+}
+#footer div ul{
+    display: flex;
+    justify-content: space-around;
+}
+#footer div h1{
+    margin: 85px 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+#footer div ul{
+    margin: 86px 220px;
+    margin-left: 196px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#footer div ul li a{
+    padding: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer div ul li a:hover{
+    font-weight: bold;
+}
+.in_footer{
+    margin: 86px 23px 99px 90px;
+    margin-bottom: 40px;
+}
+.fa-brands{
+    font-size: 20px;
+}
+.git_footer{
+    margin: 86px 23px 99px 0px;
+    margin-bottom: 40px;
+}
+#footer h4{
+    color: white;
+    background-color: #1F4548;
+    height:40px;
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar{
+    display: flex;
+    justify-content: safe;
+    background-color: #1F4548;
+}
+.item1{
+    height: 100px;
+    width:400px;
+    
+}
+.logo{
+    line-height: 103px;
+    padding-left: 50px;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+.item2{
+    height: 100px;
+    width:800px;
+}
+.item2 ul{
+    display: flex;
+    line-height: 100px;
+    width: 400px;
+    text-align: center;
+}
+.item2 ul li a{
+    padding: 17px;
+    margin: 40px 39px 40px 30px;
+    color: white;
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.item2 ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.item3{
+    height: 100px;
+    width:326px;
+    display: flex;
+    font:1.2rem;
+    justify-content:end;
+    line-height: 60px;
+}
+
+.item3 a{
+    margin: 20px;
+}
+#item4 img{
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid green;
+}
+#item5{
+    width: 100%;
+    border: 2px solid red;
+    height: 400px;
+    margin: 0;
+}
+#item6{
+    width: auto;
+    border: 2px solid green;
+    height: 400px;
+}
+#item7{
+    width: auto;
+    border: 2px solid yellow;
+    height: 400px;
+}
+ */
